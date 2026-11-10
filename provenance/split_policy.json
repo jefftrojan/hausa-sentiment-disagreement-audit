@@ -1,0 +1,31 @@
+{
+  "policy": "Drop all normalized label-conflict groups. Keep one row per normalized text; priority test > dev > train; original row order breaks ties.",
+  "counts": {
+    "test": {
+      "rows": 5303,
+      "labels": {
+        "positive": 1755,
+        "neutral": 1789,
+        "negative": 1759
+      }
+    },
+    "dev": {
+      "rows": 2664,
+      "labels": {
+        "positive": 883,
+        "neutral": 894,
+        "negative": 887
+      }
+    },
+    "train": {
+      "rows": 13957,
+      "labels": {
+        "negative": 4473,
+        "neutral": 4873,
+        "positive": 4611
+      }
+    }
+  },
+  "excluded_rows": 228,
+  "limitations": "No reliable author/conversation IDs; normalized disjointness does not guarantee author, conversation or paraphrase disjointness."
+}

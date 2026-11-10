@@ -1,0 +1,266 @@
+{
+  "scope": "AfriSenti Hausa subset sentiment, not a verified code-switched subset",
+  "sklearn_version": "1.6.1",
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "selection": "Dev macro-F1; fixed grid C=.1,1,10; train-only vocabulary; no refit on dev",
+  "split_counts": {
+    "test": {
+      "rows": 5303,
+      "labels": {
+        "positive": 1755,
+        "neutral": 1789,
+        "negative": 1759
+      }
+    },
+    "dev": {
+      "rows": 2664,
+      "labels": {
+        "positive": 883,
+        "neutral": 894,
+        "negative": 887
+      }
+    },
+    "train": {
+      "rows": 13957,
+      "labels": {
+        "negative": 4473,
+        "neutral": 4873,
+        "positive": 4611
+      }
+    }
+  },
+  "excluded_rows": 228,
+  "input_sha256": {
+    "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd",
+    "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+    "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950"
+  },
+  "models": {
+    "majority": {
+      "test": {
+        "macro_f1": 0.16817070877984583,
+        "report": {
+          "negative": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1759.0
+          },
+          "neutral": {
+            "precision": 0.33735621346407696,
+            "recall": 1.0,
+            "f1-score": 0.5045121263395375,
+            "support": 1789.0
+          },
+          "positive": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 1755.0
+          },
+          "accuracy": 0.33735621346407696,
+          "macro avg": {
+            "precision": 0.11245207115469232,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.16817070877984583,
+            "support": 5303.0
+          },
+          "weighted avg": {
+            "precision": 0.11380921476281985,
+            "recall": 0.33735621346407696,
+            "f1-score": 0.17020030058861635,
+            "support": 5303.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            1759,
+            0
+          ],
+          [
+            0,
+            1789,
+            0
+          ],
+          [
+            0,
+            1755,
+            0
+          ]
+        ]
+      }
+    },
+    "word": {
+      "selected_C": 1.0,
+      "candidates": [
+        {
+          "C": 0.1,
+          "dev_macro_f1": 0.7134054858152398,
+          "fit_seconds": 1.3441052280000005
+        },
+        {
+          "C": 1.0,
+          "dev_macro_f1": 0.7533650890290038,
+          "fit_seconds": 1.5658088790000004
+        },
+        {
+          "C": 10.0,
+          "dev_macro_f1": 0.7379095788651843,
+          "fit_seconds": 2.7671367769999993
+        }
+      ],
+      "test": {
+        "macro_f1": 0.7319688056914554,
+        "report": {
+          "negative": {
+            "precision": 0.6495525200188412,
+            "recall": 0.7839681637293917,
+            "f1-score": 0.7104585265327151,
+            "support": 1759.0
+          },
+          "neutral": {
+            "precision": 0.7206965840589418,
+            "recall": 0.6014533258803801,
+            "f1-score": 0.65569774527727,
+            "support": 1789.0
+          },
+          "positive": {
+            "precision": 0.8464730290456431,
+            "recall": 0.8136752136752137,
+            "f1-score": 0.8297501452643812,
+            "support": 1755.0
+          },
+          "accuracy": 0.7322270412973788,
+          "macro avg": {
+            "precision": 0.7389073777078088,
+            "recall": 0.7330322344283285,
+            "f1-score": 0.7319688056914554,
+            "support": 5303.0
+          },
+          "weighted avg": {
+            "precision": 0.7387232203601155,
+            "recall": 0.7322270412973788,
+            "f1-score": 0.7314635714522102,
+            "support": 5303.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            1379,
+            247,
+            133
+          ],
+          [
+            587,
+            1076,
+            126
+          ],
+          [
+            157,
+            170,
+            1428
+          ]
+        ]
+      }
+    },
+    "char": {
+      "selected_C": 10.0,
+      "candidates": [
+        {
+          "C": 0.1,
+          "dev_macro_f1": 0.734382895808411,
+          "fit_seconds": 5.445776586000001
+        },
+        {
+          "C": 1.0,
+          "dev_macro_f1": 0.7715118629170593,
+          "fit_seconds": 7.476442563999999
+        },
+        {
+          "C": 10.0,
+          "dev_macro_f1": 0.7722326233285628,
+          "fit_seconds": 9.112961051
+        }
+      ],
+      "test": {
+        "macro_f1": 0.754124069825089,
+        "report": {
+          "negative": {
+            "precision": 0.6721698113207547,
+            "recall": 0.8101193860147812,
+            "f1-score": 0.7347254447022429,
+            "support": 1759.0
+          },
+          "neutral": {
+            "precision": 0.7467191601049868,
+            "recall": 0.6361095584125209,
+            "f1-score": 0.6869906429218231,
+            "support": 1789.0
+          },
+          "positive": {
+            "precision": 0.8649789029535865,
+            "recall": 0.8176638176638177,
+            "f1-score": 0.840656121851201,
+            "support": 1755.0
+          },
+          "accuracy": 0.7539128795021686,
+          "macro avg": {
+            "precision": 0.761289291459776,
+            "recall": 0.75463092069704,
+            "f1-score": 0.754124069825089,
+            "support": 5303.0
+          },
+          "weighted avg": {
+            "precision": 0.7611286536346545,
+            "recall": 0.7539128795021686,
+            "f1-score": 0.7536790140047605,
+            "support": 5303.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            1425,
+            238,
+            96
+          ],
+          [
+            523,
+            1138,
+            128
+          ],
+          [
+            172,
+            148,
+            1435
+          ]
+        ]
+      }
+    }
+  },
+  "uncertainty": {
+    "method": "2000 paired, true-class-stratified test-row bootstrap resamples; seed 42. Conditional on fitted models, not training-seed or population uncertainty.",
+    "macro_f1_ci95": {
+      "majority": [
+        0.16817070877984583,
+        0.16817070877984583
+      ],
+      "word": [
+        0.7198666091415661,
+        0.7432675362585497
+      ],
+      "char": [
+        0.742226662219353,
+        0.7647844235440846
+      ]
+    },
+    "char_minus_word_ci95": [
+      0.01095028237455988,
+      0.033704247271162446
+    ]
+  }
+}

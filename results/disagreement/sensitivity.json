@@ -1,0 +1,154 @@
+{
+  "scope": "Exploratory post-review descriptive checks; no CIs, refits or replacement labels.",
+  "groups": {
+    "full_test": {
+      "n": 5303,
+      "models": {
+        "majority": {
+          "macro_f1": 0.16817070877984583
+        },
+        "word": {
+          "macro_f1": 0.7319688056914554
+        },
+        "char": {
+          "macro_f1": 0.754124069825089
+        },
+        "afriberta": {
+          "macro_f1": 0.7592523590935333
+        },
+        "mbert": {
+          "macro_f1": 0.7289391963140832
+        },
+        "xlmr": {
+          "macro_f1": 0.7009439767672875
+        }
+      },
+      "ranking_macro_f1": [
+        "afriberta",
+        "char",
+        "word",
+        "mbert",
+        "xlmr",
+        "majority"
+      ]
+    },
+    "eligible": {
+      "n": 4562,
+      "models": {
+        "majority": {
+          "macro_f1": 0.17896087235407312,
+          "vote_agreement": 0.3865994446880023
+        },
+        "word": {
+          "macro_f1": 0.7262720077552975,
+          "vote_agreement": 0.6928978518193775
+        },
+        "char": {
+          "macro_f1": 0.7526539249736146,
+          "vote_agreement": 0.7181060938185007
+        },
+        "afriberta": {
+          "macro_f1": 0.7559542492568129,
+          "vote_agreement": 0.7229528959033562
+        },
+        "mbert": {
+          "macro_f1": 0.7295809000748622,
+          "vote_agreement": 0.7047347654537482
+        },
+        "xlmr": {
+          "macro_f1": 0.6991685325425393,
+          "vote_agreement": 0.674777144527254
+        }
+      },
+      "ranking_macro_f1": [
+        "afriberta",
+        "char",
+        "mbert",
+        "word",
+        "xlmr",
+        "majority"
+      ]
+    },
+    "excluded": {
+      "n": 741,
+      "models": {
+        "majority": {
+          "macro_f1": 0.0895638629283489
+        },
+        "word": {
+          "macro_f1": 0.7473058275499739
+        },
+        "char": {
+          "macro_f1": 0.7388278462365422
+        },
+        "afriberta": {
+          "macro_f1": 0.7572377695907218
+        },
+        "mbert": {
+          "macro_f1": 0.690152217162722
+        },
+        "xlmr": {
+          "macro_f1": 0.6846060483399214
+        }
+      },
+      "ranking_macro_f1": [
+        "afriberta",
+        "word",
+        "char",
+        "mbert",
+        "xlmr",
+        "majority"
+      ]
+    },
+    "released_equals_unique_majority": {
+      "n": 4492,
+      "models": {
+        "majority": {
+          "macro_f1": 0.18020359540827377,
+          "vote_agreement": 0.3889878302166815
+        },
+        "word": {
+          "macro_f1": 0.7300878433564592,
+          "vote_agreement": 0.6964974769961413
+        },
+        "char": {
+          "macro_f1": 0.7570405725253831,
+          "vote_agreement": 0.7224695755417037
+        },
+        "afriberta": {
+          "macro_f1": 0.7605170222990817,
+          "vote_agreement": 0.7270456119521125
+        },
+        "mbert": {
+          "macro_f1": 0.7351168875105284,
+          "vote_agreement": 0.7088156723063223
+        },
+        "xlmr": {
+          "macro_f1": 0.7041670333258317,
+          "vote_agreement": 0.677599683387751
+        }
+      },
+      "ranking_macro_f1": [
+        "afriberta",
+        "char",
+        "mbert",
+        "word",
+        "xlmr",
+        "majority"
+      ]
+    }
+  },
+  "sha256": {
+    "data/disagreement/eligible_join.jsonl": "cc04289347a881b31f32d2c59592f094d5e9f553859c7367e09b59322e2f579e",
+    "results/cpu/test_predictions.csv": "ee311212f28c8b69c8749718036ce7ac9d9a241727e562d45f05d75da35ae792",
+    "results/kaggle_matrix/hausacs_results/afriberta_seed42/test_predictions.jsonl": "c7d8ae850daa823ddfb0a7f2516c0f0e3347556576ccb270db2fd6b3303646b4",
+    "results/kaggle_matrix/hausacs_results/afriberta_seed43/test_predictions.jsonl": "65196e84ec1e6659cc406fc0f2e54642595ba17e1a04fdd78ffe404170c77666",
+    "results/kaggle_matrix/hausacs_results/afriberta_seed44/test_predictions.jsonl": "acef32e506927fe4f135e328ace5aa1727b12ae9803d6efb497ab37020b3e116",
+    "results/kaggle_matrix/hausacs_results/mbert_seed42/test_predictions.jsonl": "f6dad607f7e7b3062bef8b7eedcf47f6d18e6997398469d5e8862a6aa3326d04",
+    "results/kaggle_matrix/hausacs_results/mbert_seed43/test_predictions.jsonl": "8d0698ee7b22e1a028f8a39f54ba4da5c054287e35f26bc5954adcc26d282d27",
+    "results/kaggle_matrix/hausacs_results/mbert_seed44/test_predictions.jsonl": "82fe569355416cbadc0792f3a2570f979e57fb40441bfb05bd393c4453748b95",
+    "results/kaggle_matrix/hausacs_results/xlmr_seed42/test_predictions.jsonl": "9dfc9195934fbeb8d73621bda314df4b63f886f8de780ac75868a7eac7919d7b",
+    "results/kaggle_matrix/hausacs_results/xlmr_seed43/test_predictions.jsonl": "de1f876510fde4e5fd799360106b841daeaa04cc9ba971b85002c447e0a49ced",
+    "results/kaggle_matrix/hausacs_results/xlmr_seed44/test_predictions.jsonl": "c2956bd43f3bf3953df3176457c731440d090c90f751bba47d6c3adfd5fb9f23"
+  }
+}

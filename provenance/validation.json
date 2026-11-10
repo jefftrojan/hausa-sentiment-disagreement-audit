@@ -1,0 +1,18 @@
+{
+  "scope": "Fresh-directory source preparation and saved-prediction reanalysis; no model retraining.",
+  "prepared_split_hashes_match": true,
+  "primary_summary_exact_match": true,
+  "independent_sensitivity_exact_match": true,
+  "three_generated_tables_exact_match": true,
+  "source_revision": "5aec3cfcf87b59f885e98641f72e52182776429d",
+  "editor_compilation": "success",
+  "gpu_retraining_performed": false,
+  "archive_inventory_checked": true,
+  "archive_contains_no_verbatim_test_posts": true,
+  "archive_identity_and_credential_pattern_scan_passed": true,
+  "extracted_standard_library_verifier_passed": true,
+  "source_checksum_verifier_passed": true,
+  "matrix_plan_nine_pinned_runs_no_execution": true,
+  "tampered_result_rejected": true,
+  "extracted_figure_and_table_regeneration_passed": true
+}

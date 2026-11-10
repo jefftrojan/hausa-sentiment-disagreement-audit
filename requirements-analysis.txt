@@ -1,0 +1,7 @@
+# Tested analysis/plot environment: CPython 3.9.6, macOS arm64.
+# This is not a historical lockfile for the Kaggle training image.
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.6.1
+threadpoolctl==3.7.0
+matplotlib==3.9.4

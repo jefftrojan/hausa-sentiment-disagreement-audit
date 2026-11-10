@@ -1,0 +1,19 @@
+% Generated from results/disagreement/summary.json.
+\begin{table}[t]
+\centering
+\footnotesize
+\caption{Model evaluation on the 4,562 eligible posts. $F$ is macro-F1 against released labels; $V$ is empirical vote agreement. $F_U$ and $F_S$ denote unanimous and two-to-one groups. Encoder values average three runs.}
+\label{tab:disagreement}
+\begin{tabular}{lrrrr}
+\toprule
+Model & $F$ & $V$ & $F_U$ & $F_S$ \\
+\midrule
+AfriBERTa & 0.756 & 0.723 & 0.829 & 0.598 \\
+Character LR & 0.753 & 0.718 & 0.823 & 0.601 \\
+mBERT & 0.730 & 0.705 & 0.814 & 0.548 \\
+Word LR & 0.726 & 0.693 & 0.789 & 0.586 \\
+XLM-R & 0.699 & 0.675 & 0.771 & 0.537 \\
+Majority class & 0.179 & 0.387 & 0.178 & 0.181 \\
+\bottomrule
+\end{tabular}
+\end{table}

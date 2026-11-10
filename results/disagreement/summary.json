@@ -1,0 +1,1010 @@
+{
+  "scope": "Exploratory reuse of original votes; no new participants or annotations",
+  "audit": {
+    "unique_matched": 5075,
+    "matched_but_ineligible": 513,
+    "missing_vote": 117,
+    "missing_annotator_id": 117,
+    "non_threeclass_vote": 399,
+    "unmatched": 228
+  },
+  "matched_vote_labels": {
+    "positive": 4727,
+    "": 117,
+    "negative": 4502,
+    "neutral": 5407,
+    "mixed": 455,
+    "indeterminate": 17
+  },
+  "eligible": 4562,
+  "pattern_counts": {
+    "unanimous": 3055,
+    "two_to_one": 1501,
+    "three_way": 6
+  },
+  "raw_exact_matches_among_eligible": 4562,
+  "source_sha256": "da4d9fae5bb61b7ee54a0efd5c09b8756b3a4cbd18500db43e1a73a1e8e44610",
+  "test_sha256": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd",
+  "prediction_sha256": {
+    "results/cpu/test_predictions.csv": "ee311212f28c8b69c8749718036ce7ac9d9a241727e562d45f05d75da35ae792",
+    "results/kaggle_matrix/hausacs_results/afriberta_seed42/test_predictions.jsonl": "c7d8ae850daa823ddfb0a7f2516c0f0e3347556576ccb270db2fd6b3303646b4",
+    "results/kaggle_matrix/hausacs_results/afriberta_seed43/test_predictions.jsonl": "65196e84ec1e6659cc406fc0f2e54642595ba17e1a04fdd78ffe404170c77666",
+    "results/kaggle_matrix/hausacs_results/afriberta_seed44/test_predictions.jsonl": "acef32e506927fe4f135e328ace5aa1727b12ae9803d6efb497ab37020b3e116",
+    "results/kaggle_matrix/hausacs_results/mbert_seed42/test_predictions.jsonl": "f6dad607f7e7b3062bef8b7eedcf47f6d18e6997398469d5e8862a6aa3326d04",
+    "results/kaggle_matrix/hausacs_results/mbert_seed43/test_predictions.jsonl": "8d0698ee7b22e1a028f8a39f54ba4da5c054287e35f26bc5954adcc26d282d27",
+    "results/kaggle_matrix/hausacs_results/mbert_seed44/test_predictions.jsonl": "82fe569355416cbadc0792f3a2570f979e57fb40441bfb05bd393c4453748b95",
+    "results/kaggle_matrix/hausacs_results/xlmr_seed42/test_predictions.jsonl": "9dfc9195934fbeb8d73621bda314df4b63f886f8de780ac75868a7eac7919d7b",
+    "results/kaggle_matrix/hausacs_results/xlmr_seed43/test_predictions.jsonl": "de1f876510fde4e5fd799360106b841daeaa04cc9ba971b85002c447e0a49ced",
+    "results/kaggle_matrix/hausacs_results/xlmr_seed44/test_predictions.jsonl": "c2956bd43f3bf3953df3176457c731440d090c90f751bba47d6c3adfd5fb9f23"
+  },
+  "released_vs_majority": {
+    "same": 4492,
+    "different": 64,
+    "tie": 6
+  },
+  "groups": {
+    "eligible_all": {
+      "n": 4562,
+      "released_classes": {
+        "positive": 1429,
+        "neutral": 1674,
+        "negative": 1459
+      },
+      "vote_ceiling": 0.889449072044425,
+      "models": {
+        "majority": {
+          "mean": {
+            "macro_f1": 0.17896087235407312,
+            "released_accuracy": 0.3669443226654976,
+            "vote_agreement": 0.3865994446880023,
+            "above_uniform": 0.053266111354668966,
+            "ceiling_shortfall": 0.5028496273564227
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.17896087235407312,
+              "released_accuracy": 0.3669443226654976,
+              "vote_agreement": 0.3865994446880023,
+              "above_uniform": 0.053266111354668966,
+              "ceiling_shortfall": 0.5028496273564227
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.17896087235407312,
+              0.17896087235407312
+            ],
+            "vote_agreement": [
+              0.3847727604851673,
+              0.3884991962589508
+            ]
+          }
+        },
+        "word": {
+          "mean": {
+            "macro_f1": 0.7262720077552975,
+            "released_accuracy": 0.7229285401139851,
+            "vote_agreement": 0.6928978518193775,
+            "above_uniform": 0.35956451848604415,
+            "ceiling_shortfall": 0.19655122022504756
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.7262720077552975,
+              "released_accuracy": 0.7229285401139851,
+              "vote_agreement": 0.6928978518193775,
+              "above_uniform": 0.35956451848604415,
+              "ceiling_shortfall": 0.19655122022504756
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7138053507380537,
+              0.7383917547618056
+            ],
+            "vote_agreement": [
+              0.682739660967412,
+              0.7026888791465731
+            ]
+          }
+        },
+        "char": {
+          "mean": {
+            "macro_f1": 0.7526539249736146,
+            "released_accuracy": 0.7494519947391495,
+            "vote_agreement": 0.7181060938185007,
+            "above_uniform": 0.38477276048516734,
+            "ceiling_shortfall": 0.17134297822592437
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.7526539249736146,
+              "released_accuracy": 0.7494519947391495,
+              "vote_agreement": 0.7181060938185007,
+              "above_uniform": 0.38477276048516734,
+              "ceiling_shortfall": 0.17134297822592437
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7406571142056223,
+              0.7639698931766127
+            ],
+            "vote_agreement": [
+              0.708315066491305,
+              0.7276103317258512
+            ]
+          }
+        },
+        "afriberta": {
+          "mean": {
+            "macro_f1": 0.7559542492568129,
+            "released_accuracy": 0.7547859126114277,
+            "vote_agreement": 0.7229528959033562,
+            "above_uniform": 0.3896195625700229,
+            "ceiling_shortfall": 0.16649617614106882
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.7500055600738192,
+              "released_accuracy": 0.7494519947391495,
+              "vote_agreement": 0.717083150664913,
+              "above_uniform": 0.3837498173315797,
+              "ceiling_shortfall": 0.172365921379512
+            },
+            {
+              "macro_f1": 0.7645378210755189,
+              "released_accuracy": 0.7626041209995615,
+              "vote_agreement": 0.7319158263919333,
+              "above_uniform": 0.3985824930586,
+              "ceiling_shortfall": 0.15753324565249172
+            },
+            {
+              "macro_f1": 0.7533193666211003,
+              "released_accuracy": 0.7523016220955722,
+              "vote_agreement": 0.7198597106532223,
+              "above_uniform": 0.386526377319889,
+              "ceiling_shortfall": 0.16958936139120273
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7434338716947915,
+              0.7686708824337142
+            ],
+            "vote_agreement": [
+              0.7121864192118467,
+              0.7340847094354329
+            ]
+          }
+        },
+        "mbert": {
+          "mean": {
+            "macro_f1": 0.7295809000748622,
+            "released_accuracy": 0.7262896390472017,
+            "vote_agreement": 0.7047347654537482,
+            "above_uniform": 0.3714014321204151,
+            "ceiling_shortfall": 0.18471430659067664
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.7292724142345136,
+              "released_accuracy": 0.7262165716790882,
+              "vote_agreement": 0.704296361245068,
+              "above_uniform": 0.3709630279117347,
+              "ceiling_shortfall": 0.18515271079935702
+            },
+            {
+              "macro_f1": 0.7277561988732312,
+              "released_accuracy": 0.7231477422183253,
+              "vote_agreement": 0.6997661844220371,
+              "above_uniform": 0.36643285108870377,
+              "ceiling_shortfall": 0.18968288762238794
+            },
+            {
+              "macro_f1": 0.7317140871168419,
+              "released_accuracy": 0.7295046032441912,
+              "vote_agreement": 0.7101417506941401,
+              "above_uniform": 0.3768084173608068,
+              "ceiling_shortfall": 0.17930732135028493
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7177970519122634,
+              0.7405656134108091
+            ],
+            "vote_agreement": [
+              0.6940182181304496,
+              0.7149897705684641
+            ]
+          }
+        },
+        "xlmr": {
+          "mean": {
+            "macro_f1": 0.6991685325425393,
+            "released_accuracy": 0.6961128160163671,
+            "vote_agreement": 0.674777144527254,
+            "above_uniform": 0.3414438111939208,
+            "ceiling_shortfall": 0.21467192751717093
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.6972995257530245,
+              "released_accuracy": 0.6944322665497589,
+              "vote_agreement": 0.6738272687417799,
+              "above_uniform": 0.3404939354084466,
+              "ceiling_shortfall": 0.21562180330264513
+            },
+            {
+              "macro_f1": 0.7156743961853115,
+              "released_accuracy": 0.7117492327926348,
+              "vote_agreement": 0.6893175507818208,
+              "above_uniform": 0.35598421744848746,
+              "ceiling_shortfall": 0.20013152126260425
+            },
+            {
+              "macro_f1": 0.6845316756892821,
+              "released_accuracy": 0.6821569487067076,
+              "vote_agreement": 0.6611866140581616,
+              "above_uniform": 0.3278532807248283,
+              "ceiling_shortfall": 0.22826245798626343
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.6817075242124704,
+              0.7173691537324822
+            ],
+            "vote_agreement": [
+              0.6595285936967218,
+              0.6907058307759755
+            ]
+          }
+        }
+      },
+      "ranking": {
+        "macro_f1": [
+          "afriberta",
+          "char",
+          "mbert",
+          "word",
+          "xlmr",
+          "majority"
+        ],
+        "vote_agreement": [
+          "afriberta",
+          "char",
+          "mbert",
+          "word",
+          "xlmr",
+          "majority"
+        ]
+      }
+    },
+    "unanimous": {
+      "n": 3055,
+      "released_classes": {
+        "positive": 1068,
+        "neutral": 1112,
+        "negative": 875
+      },
+      "vote_ceiling": 1.0,
+      "models": {
+        "majority": {
+          "mean": {
+            "macro_f1": 0.1779057675385969,
+            "released_accuracy": 0.3639934533551555,
+            "vote_agreement": 0.3636661211129296,
+            "above_uniform": 0.030332787779596304,
+            "ceiling_shortfall": 0.6363338788870704
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.1779057675385969,
+              "released_accuracy": 0.3639934533551555,
+              "vote_agreement": 0.3636661211129296,
+              "above_uniform": 0.030332787779596304,
+              "ceiling_shortfall": 0.6363338788870704
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.1779057675385969,
+              0.1779057675385969
+            ],
+            "vote_agreement": [
+              0.36202945990180035,
+              0.3649754500818331
+            ]
+          }
+        },
+        "word": {
+          "mean": {
+            "macro_f1": 0.7890239911629994,
+            "released_accuracy": 0.7911620294599018,
+            "vote_agreement": 0.7918166939443535,
+            "above_uniform": 0.4584833606110202,
+            "ceiling_shortfall": 0.2081833060556465
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.7890239911629994,
+              "released_accuracy": 0.7911620294599018,
+              "vote_agreement": 0.7918166939443535,
+              "above_uniform": 0.4584833606110202,
+              "ceiling_shortfall": 0.2081833060556465
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7745881838069933,
+              0.8032310012973065
+            ],
+            "vote_agreement": [
+              0.7777414075286416,
+              0.8055646481178396
+            ]
+          }
+        },
+        "char": {
+          "mean": {
+            "macro_f1": 0.8227159708093521,
+            "released_accuracy": 0.8242225859247135,
+            "vote_agreement": 0.8248772504091653,
+            "above_uniform": 0.49154391707583195,
+            "ceiling_shortfall": 0.17512274959083474
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.8227159708093521,
+              "released_accuracy": 0.8242225859247135,
+              "vote_agreement": 0.8248772504091653,
+              "above_uniform": 0.49154391707583195,
+              "ceiling_shortfall": 0.17512274959083474
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.8087246407325615,
+              0.8358948586878804
+            ],
+            "vote_agreement": [
+              0.8111292962356792,
+              0.8379705400981997
+            ]
+          }
+        },
+        "afriberta": {
+          "mean": {
+            "macro_f1": 0.8288262305652228,
+            "released_accuracy": 0.8319694489907256,
+            "vote_agreement": 0.83240589198036,
+            "above_uniform": 0.49907255864702676,
+            "ceiling_shortfall": 0.16759410801963995
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.8200183561566626,
+              "released_accuracy": 0.8238952536824877,
+              "vote_agreement": 0.8242225859247135,
+              "above_uniform": 0.4908892525913802,
+              "ceiling_shortfall": 0.17577741407528646
+            },
+            {
+              "macro_f1": 0.8413526418737947,
+              "released_accuracy": 0.8438625204582652,
+              "vote_agreement": 0.8445171849427169,
+              "above_uniform": 0.5111838516093836,
+              "ceiling_shortfall": 0.15548281505728312
+            },
+            {
+              "macro_f1": 0.8251076936652112,
+              "released_accuracy": 0.8281505728314239,
+              "vote_agreement": 0.8284779050736497,
+              "above_uniform": 0.4951445717403164,
+              "ceiling_shortfall": 0.1715220949263503
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.8135583479892439,
+              0.844050227825026
+            ],
+            "vote_agreement": [
+              0.8176759410801964,
+              0.8471358428805237
+            ]
+          }
+        },
+        "mbert": {
+          "mean": {
+            "macro_f1": 0.8135898533510763,
+            "released_accuracy": 0.8157119476268413,
+            "vote_agreement": 0.81582105837425,
+            "above_uniform": 0.4824877250409166,
+            "ceiling_shortfall": 0.1841789416257501
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.8124858680414236,
+              "released_accuracy": 0.8147299509001636,
+              "vote_agreement": 0.8150572831423896,
+              "above_uniform": 0.48172394980905625,
+              "ceiling_shortfall": 0.18494271685761043
+            },
+            {
+              "macro_f1": 0.8091831711348636,
+              "released_accuracy": 0.8104746317512275,
+              "vote_agreement": 0.8108019639934534,
+              "above_uniform": 0.4774686306601201,
+              "ceiling_shortfall": 0.1891980360065466
+            },
+            {
+              "macro_f1": 0.8191005208769414,
+              "released_accuracy": 0.8219312602291325,
+              "vote_agreement": 0.8216039279869067,
+              "above_uniform": 0.4882705946535734,
+              "ceiling_shortfall": 0.17839607201309327
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7994550164033013,
+              0.8271557472750358
+            ],
+            "vote_agreement": [
+              0.8015248226950353,
+              0.8293507910529186
+            ]
+          }
+        },
+        "xlmr": {
+          "mean": {
+            "macro_f1": 0.7713856299799521,
+            "released_accuracy": 0.7737043098745225,
+            "vote_agreement": 0.7745771958537916,
+            "above_uniform": 0.4412438625204583,
+            "ceiling_shortfall": 0.2254228041462084
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.7703353871290896,
+              "released_accuracy": 0.772176759410802,
+              "vote_agreement": 0.7731587561374795,
+              "above_uniform": 0.4398254228041462,
+              "ceiling_shortfall": 0.22684124386252047
+            },
+            {
+              "macro_f1": 0.7894796067993584,
+              "released_accuracy": 0.7914893617021277,
+              "vote_agreement": 0.7924713584288052,
+              "above_uniform": 0.4591380250954719,
+              "ceiling_shortfall": 0.20752864157119477
+            },
+            {
+              "macro_f1": 0.7543418960114083,
+              "released_accuracy": 0.7574468085106383,
+              "vote_agreement": 0.75810147299509,
+              "above_uniform": 0.4247681396617567,
+              "ceiling_shortfall": 0.24189852700491
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.7508376297432978,
+              0.7919455148554848
+            ],
+            "vote_agreement": [
+              0.7541734860883796,
+              0.7950954719039826
+            ]
+          }
+        }
+      },
+      "ranking": {
+        "macro_f1": [
+          "afriberta",
+          "char",
+          "mbert",
+          "word",
+          "xlmr",
+          "majority"
+        ],
+        "vote_agreement": [
+          "afriberta",
+          "char",
+          "mbert",
+          "word",
+          "xlmr",
+          "majority"
+        ]
+      }
+    },
+    "two_to_one": {
+      "n": 1501,
+      "released_classes": {
+        "positive": 360,
+        "neutral": 561,
+        "negative": 580
+      },
+      "vote_ceiling": 0.6666666666666667,
+      "models": {
+        "majority": {
+          "mean": {
+            "macro_f1": 0.1813773035887488,
+            "released_accuracy": 0.3737508327781479,
+            "vote_agreement": 0.4334887852542749,
+            "above_uniform": 0.10015545192094161,
+            "ceiling_shortfall": 0.23317788141239182
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.1813773035887488,
+              "released_accuracy": 0.3737508327781479,
+              "vote_agreement": 0.4334887852542749,
+              "above_uniform": 0.10015545192094161,
+              "ceiling_shortfall": 0.23317788141239182
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.1813773035887488,
+              0.1813773035887488
+            ],
+            "vote_agreement": [
+              0.4286031534532534,
+              0.4385964912280702
+            ]
+          }
+        },
+        "word": {
+          "mean": {
+            "macro_f1": 0.5857510296149999,
+            "released_accuracy": 0.5842771485676216,
+            "vote_agreement": 0.49300466355762823,
+            "above_uniform": 0.15967133022429492,
+            "ceiling_shortfall": 0.1736620031090385
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.5857510296149999,
+              "released_accuracy": 0.5842771485676216,
+              "vote_agreement": 0.49300466355762823,
+              "above_uniform": 0.15967133022429492,
+              "ceiling_shortfall": 0.1736620031090385
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.5605385904563334,
+              0.6111931920382527
+            ],
+            "vote_agreement": [
+              0.48190095491894286,
+              0.5043304463690873
+            ]
+          }
+        },
+        "char": {
+          "mean": {
+            "macro_f1": 0.601272608337469,
+            "released_accuracy": 0.597601598934044,
+            "vote_agreement": 0.5023317788141239,
+            "above_uniform": 0.16899844548079063,
+            "ceiling_shortfall": 0.1643348878525428
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.601272608337469,
+              "released_accuracy": 0.597601598934044,
+              "vote_agreement": 0.5023317788141239,
+              "above_uniform": 0.16899844548079063,
+              "ceiling_shortfall": 0.1643348878525428
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.577106008246203,
+              0.6256304320216323
+            ],
+            "vote_agreement": [
+              0.491672218520986,
+              0.5127692649344882
+            ]
+          }
+        },
+        "afriberta": {
+          "mean": {
+            "macro_f1": 0.5983345889200083,
+            "released_accuracy": 0.5980457472795914,
+            "vote_agreement": 0.5017395810200607,
+            "above_uniform": 0.1684062476867274,
+            "ceiling_shortfall": 0.164927085646606
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.5982760533029108,
+              "released_accuracy": 0.5982678214523651,
+              "vote_agreement": 0.5005551854319343,
+              "above_uniform": 0.16722185209860102,
+              "ceiling_shortfall": 0.1661114812347324
+            },
+            {
+              "macro_f1": 0.6015562495346569,
+              "released_accuracy": 0.597601598934044,
+              "vote_agreement": 0.5043304463690873,
+              "above_uniform": 0.170997113035754,
+              "ceiling_shortfall": 0.16233622029757944
+            },
+            {
+              "macro_f1": 0.5951714639224575,
+              "released_accuracy": 0.5982678214523651,
+              "vote_agreement": 0.5003331112591606,
+              "above_uniform": 0.16699977792582726,
+              "ceiling_shortfall": 0.16633355540750616
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.5757249132756656,
+              0.6222319432909617
+            ],
+            "vote_agreement": [
+              0.49144829373010585,
+              0.5124731660374565
+            ]
+          }
+        },
+        "mbert": {
+          "mean": {
+            "macro_f1": 0.5482441437097153,
+            "released_accuracy": 0.5447479458139018,
+            "vote_agreement": 0.48012436153675325,
+            "above_uniform": 0.14679102820341997,
+            "ceiling_shortfall": 0.18654230512991346
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.5500842067189536,
+              "released_accuracy": 0.5456362425049966,
+              "vote_agreement": 0.480346435709527,
+              "above_uniform": 0.1470131023761937,
+              "ceiling_shortfall": 0.18632023095713973
+            },
+            {
+              "macro_f1": 0.5489678432511339,
+              "released_accuracy": 0.5463024650233178,
+              "vote_agreement": 0.47523872973573167,
+              "above_uniform": 0.14190539640239835,
+              "ceiling_shortfall": 0.19142793693093507
+            },
+            {
+              "macro_f1": 0.5456803811590584,
+              "released_accuracy": 0.5423051299133911,
+              "vote_agreement": 0.48478791916500114,
+              "above_uniform": 0.15145458583166782,
+              "ceiling_shortfall": 0.1818787475016656
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.5247283527032487,
+              0.5712002620242663
+            ],
+            "vote_agreement": [
+              0.46879672810718775,
+              0.4918979939299726
+            ]
+          }
+        },
+        "xlmr": {
+          "mean": {
+            "macro_f1": 0.5366172506769905,
+            "released_accuracy": 0.5378636464579168,
+            "vote_agreement": 0.4730179880079946,
+            "above_uniform": 0.13968465467466132,
+            "ceiling_shortfall": 0.1936486786586721
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.5349269614839827,
+              "released_accuracy": 0.536309127248501,
+              "vote_agreement": 0.47301798800799466,
+              "above_uniform": 0.13968465467466135,
+              "ceiling_shortfall": 0.19364867865867208
+            },
+            {
+              "macro_f1": 0.5522696466248201,
+              "released_accuracy": 0.5496335776149234,
+              "vote_agreement": 0.48079058405507435,
+              "above_uniform": 0.14745725072174104,
+              "ceiling_shortfall": 0.18587608261159239
+            },
+            {
+              "macro_f1": 0.5226551439221688,
+              "released_accuracy": 0.5276482345103265,
+              "vote_agreement": 0.4652453919609149,
+              "above_uniform": 0.1319120586275816,
+              "ceiling_shortfall": 0.20142127470575183
+            }
+          ],
+          "ci95": {
+            "macro_f1": [
+              0.5105993618556266,
+              0.5647191907429462
+            ],
+            "vote_agreement": [
+              0.4602117107113777,
+              0.4849359686135169
+            ]
+          }
+        }
+      },
+      "ranking": {
+        "macro_f1": [
+          "char",
+          "afriberta",
+          "word",
+          "mbert",
+          "xlmr",
+          "majority"
+        ],
+        "vote_agreement": [
+          "char",
+          "afriberta",
+          "word",
+          "mbert",
+          "xlmr",
+          "majority"
+        ]
+      }
+    },
+    "three_way": {
+      "n": 6,
+      "released_classes": {
+        "positive": 1,
+        "neutral": 1,
+        "negative": 4
+      },
+      "vote_ceiling": 0.3333333333333333,
+      "models": {
+        "majority": {
+          "mean": {
+            "macro_f1": 0.09523809523809523,
+            "released_accuracy": 0.16666666666666666,
+            "vote_agreement": 0.3333333333333333,
+            "above_uniform": 0.0,
+            "ceiling_shortfall": 0.0
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.09523809523809523,
+              "released_accuracy": 0.16666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            }
+          ],
+          "ci95": null
+        },
+        "word": {
+          "mean": {
+            "macro_f1": 0.47222222222222215,
+            "released_accuracy": 0.6666666666666666,
+            "vote_agreement": 0.3333333333333333,
+            "above_uniform": 0.0,
+            "ceiling_shortfall": 0.0
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.47222222222222215,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            }
+          ],
+          "ci95": null
+        },
+        "char": {
+          "mean": {
+            "macro_f1": 0.5833333333333334,
+            "released_accuracy": 0.6666666666666666,
+            "vote_agreement": 0.3333333333333333,
+            "above_uniform": 0.0,
+            "ceiling_shortfall": 0.0
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.5833333333333334,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            }
+          ],
+          "ci95": null
+        },
+        "afriberta": {
+          "mean": {
+            "macro_f1": 0.47222222222222215,
+            "released_accuracy": 0.6666666666666666,
+            "vote_agreement": 0.3333333333333333,
+            "above_uniform": 0.0,
+            "ceiling_shortfall": 0.0
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.47222222222222215,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            },
+            {
+              "macro_f1": 0.47222222222222215,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            },
+            {
+              "macro_f1": 0.47222222222222215,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            }
+          ],
+          "ci95": null
+        },
+        "mbert": {
+          "mean": {
+            "macro_f1": 0.40299823633156967,
+            "released_accuracy": 0.6111111111111112,
+            "vote_agreement": 0.3333333333333333,
+            "above_uniform": 0.0,
+            "ceiling_shortfall": 0.0
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.6296296296296297,
+              "released_accuracy": 0.8333333333333334,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            },
+            {
+              "macro_f1": 0.2222222222222222,
+              "released_accuracy": 0.5,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            },
+            {
+              "macro_f1": 0.35714285714285715,
+              "released_accuracy": 0.5,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            }
+          ],
+          "ci95": null
+        },
+        "xlmr": {
+          "mean": {
+            "macro_f1": 0.5111111111111111,
+            "released_accuracy": 0.7777777777777777,
+            "vote_agreement": 0.3333333333333333,
+            "above_uniform": 0.0,
+            "ceiling_shortfall": 0.0
+          },
+          "per_run": [
+            {
+              "macro_f1": 0.26666666666666666,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            },
+            {
+              "macro_f1": 0.26666666666666666,
+              "released_accuracy": 0.6666666666666666,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            },
+            {
+              "macro_f1": 1.0,
+              "released_accuracy": 1.0,
+              "vote_agreement": 0.3333333333333333,
+              "above_uniform": 0.0,
+              "ceiling_shortfall": 0.0
+            }
+          ],
+          "ci95": null
+        }
+      },
+      "ranking": {
+        "macro_f1": [
+          "char",
+          "xlmr",
+          "word",
+          "afriberta",
+          "mbert",
+          "majority"
+        ],
+        "vote_agreement": [
+          "majority",
+          "word",
+          "char",
+          "afriberta",
+          "mbert",
+          "xlmr"
+        ]
+      }
+    }
+  },
+  "contrasts": {
+    "eligible_all": {
+      "macro_f1": {
+        "mean_delta": 0.0033003242831982638,
+        "ci95": [
+          -0.011339176369564797,
+          0.017669597288191386
+        ]
+      },
+      "vote_agreement": {
+        "mean_delta": 0.00484680208485555,
+        "ci95": [
+          -0.008090993229090506,
+          0.017101417506941458
+        ]
+      }
+    },
+    "unanimous": {
+      "macro_f1": {
+        "mean_delta": 0.006110259755870651,
+        "ci95": [
+          -0.011564199941167686,
+          0.023335415250955394
+        ]
+      },
+      "vote_agreement": {
+        "mean_delta": 0.007528641571194705,
+        "ci95": [
+          -0.00949263502455,
+          0.024549918166939303
+        ]
+      }
+    },
+    "two_to_one": {
+      "macro_f1": {
+        "mean_delta": -0.0029380194174606356,
+        "ci95": [
+          -0.026666297035799383,
+          0.02245927168423884
+        ]
+      },
+      "vote_agreement": {
+        "mean_delta": -0.0005921977940632761,
+        "ci95": [
+          -0.011473832259974894,
+          0.010585535568880037
+        ]
+      }
+    },
+    "three_way": {
+      "macro_f1": {
+        "mean_delta": -0.11111111111111122,
+        "ci95": null
+      },
+      "vote_agreement": {
+        "mean_delta": 0.0,
+        "ci95": null
+      }
+    }
+  },
+  "method": "2000 paired post resamples stratified by (released class, observed agreement pattern), jointly resampled encoder seeds, RNG 42. Votes fixed within post; CPU fits fixed; unadjusted exploratory intervals. Three-way n=6 is descriptive."
+}

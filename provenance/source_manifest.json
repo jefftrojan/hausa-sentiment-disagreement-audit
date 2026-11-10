@@ -1,0 +1,43 @@
+{
+  "repository": "https://github.com/afrisenti-semeval/afrisent-semeval-2023",
+  "revision": "5aec3cfcf87b59f885e98641f72e52182776429d",
+  "files": [
+    {
+      "path": "data/hau/train.tsv",
+      "sha256": "0a125f4528d1ae86b112ec5d3d66312fcb154883a5a021c6ab913cd2ce877d87",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/data/hau/train.tsv"
+    },
+    {
+      "path": "data/hau/dev.tsv",
+      "sha256": "6f895e66fb732b45fad926315841c41da8fc03dde2aef3a5386183bdcf15221b",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/data/hau/dev.tsv"
+    },
+    {
+      "path": "data/hau/test.tsv",
+      "sha256": "29b2193808935c459e323b4434f9d1e1968883eed273617f43510b7127a3fa0a",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/data/hau/test.tsv"
+    },
+    {
+      "path": "data_with_annotators_labels/hausa_individual_labels.csv",
+      "sha256": "da4d9fae5bb61b7ee54a0efd5c09b8756b3a4cbd18500db43e1a73a1e8e44610",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/data_with_annotators_labels/hausa_individual_labels.csv"
+    },
+    {
+      "path": "README.md",
+      "sha256": "26a5240c3fed0fe95a579764ffde01dd131df45350d0f006443a6634c0951732",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/README.md"
+    },
+    {
+      "path": "data/README.txt",
+      "sha256": "79c844c62b80848426fccbb820e29672bfd4319fbff5526ba1dcfd3759217aed",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/data/README.txt"
+    },
+    {
+      "path": "data_with_annotators_labels/README.txt",
+      "sha256": "79c844c62b80848426fccbb820e29672bfd4319fbff5526ba1dcfd3759217aed",
+      "url": "https://github.com/afrisenti-semeval/afrisent-semeval-2023/blob/5aec3cfcf87b59f885e98641f72e52182776429d/data_with_annotators_labels/README.txt"
+    }
+  ],
+  "license_note": "Official GitHub README states CC BY 4.0; HF NaijaSenti card states CC BY-NC-SA 4.0. Preserve release-specific terms; resolve before redistribution.",
+  "annotation_status": "Sentiment supplied by source. Token LID and pragmatics not annotated here."
+}

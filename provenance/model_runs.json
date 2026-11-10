@@ -1,0 +1,356 @@
+{
+  "environment_note": "Recorded versions, not a complete historical GPU dependency lock; no weights included.",
+  "runs": [
+    {
+      "config": {
+        "model": "castorini/afriberta_large",
+        "revision": "231d92411ab8a99add67eda412ee948c74a4b179",
+        "seed": 42,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.7713954417625956
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7926202861774128
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.7976104292159238
+        }
+      ],
+      "test_macro_f1": 0.7543080865626598,
+      "elapsed_seconds": 209.30491638799998,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "afriberta",
+      "source_summary_sha256": "f0e8b476ffeae90fc524a6534394294d07796b8179cb98c92b9c42194c17a1f5"
+    },
+    {
+      "config": {
+        "model": "castorini/afriberta_large",
+        "revision": "231d92411ab8a99add67eda412ee948c74a4b179",
+        "seed": 43,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.7818438710705048
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.8004784258904007
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.8049353254572189
+        }
+      ],
+      "test_macro_f1": 0.7667275916298193,
+      "elapsed_seconds": 210.04547872700005,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "afriberta",
+      "source_summary_sha256": "deb3996797c310a138ecd8cdb6eda70e0de455f8477730eb411d98b80f48bb8d"
+    },
+    {
+      "config": {
+        "model": "castorini/afriberta_large",
+        "revision": "231d92411ab8a99add67eda412ee948c74a4b179",
+        "seed": 44,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.7818143653436623
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7933433739077803
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.7957420256392006
+        }
+      ],
+      "test_macro_f1": 0.7567213990881209,
+      "elapsed_seconds": 210.31782742699988,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "afriberta",
+      "source_summary_sha256": "19d0c5e9221a9639297e1b45540593544f6b6bc2b6e99bbe867ff511cf2be31d"
+    },
+    {
+      "config": {
+        "model": "google-bert/bert-base-multilingual-cased",
+        "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+        "seed": 42,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.6879625184412174
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7115509144673405
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.7301199522047153
+        }
+      ],
+      "test_macro_f1": 0.7296135106218133,
+      "elapsed_seconds": 270.9211762220002,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "mbert",
+      "source_summary_sha256": "dc81d9688fce65ad033dc58d61c3693eb6cf7979ab138276171c709080867031"
+    },
+    {
+      "config": {
+        "model": "google-bert/bert-base-multilingual-cased",
+        "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+        "seed": 43,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.6184896965240146
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.72843404849813
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.7385135503902155
+        }
+      ],
+      "test_macro_f1": 0.7289831457953428,
+      "elapsed_seconds": 270.28140980299986,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "mbert",
+      "source_summary_sha256": "eec28d5a96631c8767d8c2d2bdbcbb423c950c8fdff7b344417b86660290b59c"
+    },
+    {
+      "config": {
+        "model": "google-bert/bert-base-multilingual-cased",
+        "revision": "3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+        "seed": 44,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.6875679923176715
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7284789646112029
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.731133476552682
+        }
+      ],
+      "test_macro_f1": 0.7282209325250933,
+      "elapsed_seconds": 270.7183081850003,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "mbert",
+      "source_summary_sha256": "cbfcf87de6d21c9328eb8e2c393507531cf7ea071a8052e930f05a9d108f961d"
+    },
+    {
+      "config": {
+        "model": "FacebookAI/xlm-roberta-base",
+        "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+        "seed": 42,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.6823284414340449
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7289330845011882
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.7342625214544913
+        }
+      ],
+      "test_macro_f1": 0.7009655710791339,
+      "elapsed_seconds": 330.6984047589999,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "xlmr",
+      "source_summary_sha256": "99ab1d5afc712628af1236ec21a15a73f4bf090f99ee5d00df6bdcfd4c4bdc7f"
+    },
+    {
+      "config": {
+        "model": "FacebookAI/xlm-roberta-base",
+        "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+        "seed": 43,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.6772803419535162
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7148937889118351
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.729917898160244
+        }
+      ],
+      "test_macro_f1": 0.7143501827163988,
+      "elapsed_seconds": 330.99092433500005,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "xlmr",
+      "source_summary_sha256": "8764e9ee26b389a5037bcff6798c1e0467a354f9047f89df8cda1cc6262abb22"
+    },
+    {
+      "config": {
+        "model": "FacebookAI/xlm-roberta-base",
+        "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+        "seed": 44,
+        "epochs": 3,
+        "lr": 2e-05,
+        "batch_size": 16,
+        "gradient_accumulation": 2,
+        "max_length": 128,
+        "smoke": false,
+        "input_sha256": {
+          "train": "b7e1fc8bdd5b36ce0a9fc7c52dfd23595e1e7edb83c60400764b56661aafd950",
+          "dev": "980bc128e88d671944ba1c0d4377ec93398b65a3ecdc41a5fcbed77db11f26ca",
+          "test": "5fb26a41eb84c0ea8ca7a79b818b67f7bff5d183ff936d2bd7f12c365907dafd"
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "dev_macro_f1": 0.6860021558602192
+        },
+        {
+          "epoch": 2,
+          "dev_macro_f1": 0.7235137974775546
+        },
+        {
+          "epoch": 3,
+          "dev_macro_f1": 0.7350515960149872
+        }
+      ],
+      "test_macro_f1": 0.6875161765063296,
+      "elapsed_seconds": 331.30778978500007,
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "gpu": "Tesla T4",
+      "model_key": "xlmr",
+      "source_summary_sha256": "33c19cab92fce90a3e7b3b7969240f647ec92cef46321763185f2041ec39a3dc"
+    }
+  ]
+}
