@@ -90,14 +90,6 @@ per-item predictions, exclusion ledgers, credentials and model weights are
 **not included**. Only code, manuscript, aggregate outputs and provenance are
 published. Exact reanalysis is not possible from aggregate summaries alone.
 
-## Scope and relationship to the earlier project
 
-This exploratory secondary audit is not a verified code-switching/pragmatics
-study, first disagreement-aware Hausa method, new sentiment corpus, claim of
-superiority/equivalence, or evidence that differing labels are mistakes.
-Institutional requirements, author review and final venue compliance remain
-separate from publishing this code/results artifact. AI assisted framing,
-search, code, analysis and drafting; the human authors remain responsible for
-verification and the final scientific claims.
 
 
