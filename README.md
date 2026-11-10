@@ -100,6 +100,4 @@ separate from publishing this code/results artifact. AI assisted framing,
 search, code, analysis and drafting; the human authors remain responsible for
 verification and the final scientific claims.
 
-The earlier [Hausa-English code-switching repository](https://github.com/jefftrojan/jefftrojan-hausa-english-codeswitching)
-is a separate historical project. Its proposed corpus statistics, annotations
-and example results are not evidence for this audit and are not imported here.
+
